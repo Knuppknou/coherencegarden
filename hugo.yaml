@@ -1,0 +1,33 @@
+baseURL: "https://coherencegarden.com/"
+languageCode: "en"
+title: "coherence garden"
+theme: "blowfish"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 10
+
+taxonomies:
+  tag: tags
+  category: categories
+  topic: topics
+
+menu:
+  main:
+    - name: "About"
+      pageRef: "/about"
+      weight: 10
+    - name: "Projects"
+      pageRef: "/projects"
+      weight: 20
+    - name: "Blog"
+      pageRef: "/blog"
+      weight: 30
+    - name: "Archive"
+      pageRef: "/archive"
+      weight: 40
+
+params:
+  enableSearch: false
+  defaultAppearance: "light"
